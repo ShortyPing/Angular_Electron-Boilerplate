@@ -15,7 +15,7 @@ function createWindow () {
   })
 
   // and load the index.html of the app.
-  win.loadFile('dist/angular-electron/index.html')
+  win.loadFile('dist/index.html')
 
   win.menuBarVisible = false;
 
@@ -49,6 +49,8 @@ app.on('activate', () => {
     createWindow()
   }
 })
+
+
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.
